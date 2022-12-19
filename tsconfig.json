@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@nue/ui-lib-sample": [
+                "src/index.ts"
+            ],
+            "@nue/ui-lib-sample/esm/*": [
+                "src/*"
+            ],
+            "@nue/ui-lib-sample/lib/*": [
+                "src/*"
+            ]
+        },
+        "target": "es6",
+        "lib": [
+            "es2019",
+            "DOM",
+            "ES6",
+            "DOM.Iterable",
+            "ScriptHost"
+        ],
+        "module": "commonjs",
+        "jsx": "react",
+        "declaration": true,
+        "declarationDir": "lib",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src",
+        "global.d.ts",
+        "custom-types.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+    ],
+    "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "off"
+    }
+}
