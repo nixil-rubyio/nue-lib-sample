@@ -1044,6 +1044,13 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.10.5":
+  version "7.20.13"
+  resolved "http://nexus.nuedev.click/repository/npm-group/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
+  integrity sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==
+  dependencies:
+    regenerator-runtime "^0.13.11"
+
 "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
   version "7.17.9"
   resolved "http://nexus.nuedev.click/repository/npm-group/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
@@ -1602,6 +1609,18 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@nue-apps/nue-pricing-clientjs@2023.1.1":
+  version "2023.1.1"
+  resolved "https://gitlab.com/api/v4/projects/42706932/packages/npm/@nue-apps/nue-pricing-clientjs/-/@nue-apps/nue-pricing-clientjs-2023.1.1.tgz#7ca7cb8506463d4d15aeeb3f880ee510de2a15c7"
+  integrity sha1-fKfLhQZGPU0Vrus/iA7lEN4qFcc=
+  dependencies:
+    "@types/inquirer" "~7.3.0"
+    "@types/jest" "~29.2.4"
+    "@types/semver" "~7.3.1"
+    babel-plugin-async-to-promises "~1.0.5"
+    bignumber "^1.1.0"
+    ruby-pricing-calculator "~0.8.6-0"
+
 "@sinclair/typebox@^0.24.1":
   version "0.24.51"
   resolved "http://nexus.nuedev.click/repository/npm-group/@sinclair/typebox/-/typebox-0.24.51.tgz#645f33fe4e02defe26f2f5c0410e1c094eac7f5f"
@@ -1707,7 +1726,7 @@
     "@types/through" "*"
     rxjs "^6.4.0"
 
-"@types/inquirer@^7.3.0":
+"@types/inquirer@^7.3.0", "@types/inquirer@~7.3.0":
   version "7.3.3"
   resolved "http://nexus.nuedev.click/repository/npm-group/@types/inquirer/-/inquirer-7.3.3.tgz#92e6676efb67fa6925c69a2ee638f67a822952ac"
   integrity sha512-HhxyLejTHMfohAuhRun4csWigAMjXTmRyiJTU1Y/I1xmggikFMkOUoMQRlFm+zQcPEGHSs3io/0FAmNZf8EymQ==
@@ -1745,6 +1764,14 @@
   version "29.2.4"
   resolved "http://nexus.nuedev.click/repository/npm-group/@types/jest/-/jest-29.2.4.tgz#9c155c4b81c9570dbd183eb8604aa0ae80ba5a5b"
   integrity sha512-PipFB04k2qTRPePduVLTRiPzQfvMeLwUN3Z21hsAKaB/W9IIzgB2pizCL466ftJlcyZqnHoC9ZHpxLGl3fS86A==
+  dependencies:
+    expect "^29.0.0"
+    pretty-format "^29.0.0"
+
+"@types/jest@~29.2.4":
+  version "29.2.6"
+  resolved "http://nexus.nuedev.click/repository/npm-group/@types/jest/-/jest-29.2.6.tgz#1d43c8e533463d0437edef30b2d45d5aa3d95b0a"
+  integrity sha512-XEUC/Tgw3uMh6Ho8GkUtQ2lPhY5Fmgyp3TdlkTJs1W9VgNxs+Ow/x3Elh8lHQKqCbZL0AubQuqWjHVT033Hhrw==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
@@ -1797,6 +1824,11 @@
   version "7.3.9"
   resolved "http://nexus.nuedev.click/repository/npm-group/@types/semver/-/semver-7.3.9.tgz#152c6c20a7688c30b967ec1841d31ace569863fc"
   integrity sha512-L/TMpyURfBkf+o/526Zb6kd/tchUP3iBDEPjqjb+U2MAJhVRxxrmr2fwpe08E7QsV7YLcpq0tUaQ9O9x97ZIxQ==
+
+"@types/semver@~7.3.1":
+  version "7.3.13"
+  resolved "http://nexus.nuedev.click/repository/npm-group/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
+  integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
@@ -2193,7 +2225,7 @@ babel-messages@^6.23.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-async-to-promises@^1.0.5:
+babel-plugin-async-to-promises@^1.0.5, babel-plugin-async-to-promises@~1.0.5:
   version "1.0.5"
   resolved "http://nexus.nuedev.click/repository/npm-group/babel-plugin-async-to-promises/-/babel-plugin-async-to-promises-1.0.5.tgz#cfdc47d1468ce32bee6d38862bfccd2b59daf25b"
   integrity sha1-z9xH0UaM4yvubTiGK/zNK1na8ls=
@@ -2367,6 +2399,16 @@ big.js@^5.2.2:
   version "5.2.2"
   resolved "http://nexus.nuedev.click/repository/npm-group/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
   integrity sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
+
+bignumber.js@^9.0.0:
+  version "9.1.1"
+  resolved "http://nexus.nuedev.click/repository/npm-group/bignumber.js/-/bignumber.js-9.1.1.tgz#c4df7dc496bd849d4c9464344c1aa74228b4dac6"
+  integrity sha512-pHm4LsMJ6lzgNGVfZHjMoO8sdoRhOzOH4MLmY65Jg70bpxCKu5iOHNJyfF6OyvYw7t8Fpf35RuzUyqnQsj8Vig==
+
+bignumber@^1.1.0:
+  version "1.1.0"
+  resolved "http://nexus.nuedev.click/repository/npm-group/bignumber/-/bignumber-1.1.0.tgz#e6ab0a743da5f3ea018e5c17597d121f7868c159"
+  integrity sha512-EGqHCKkEAwVwufcEOCYhZQqdVH+7cNCyPZ9yxisYvSjHFB+d9YcGMvorsFpeN5IJpC+lC6K+FHhu8+S4MgJazw==
 
 binary-extensions@^1.0.0:
   version "1.13.1"
@@ -3038,6 +3080,11 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
+currency.js@^2.0.3:
+  version "2.0.4"
+  resolved "http://nexus.nuedev.click/repository/npm-group/currency.js/-/currency.js-2.0.4.tgz#a8a4d69be3b2e509bf67a560c78220bc04809cf1"
+  integrity sha512-6/OplJYgJ0RUlli74d93HJ/OsKVBi8lB1+Z6eJYS1YZzBuIp4qKKHpJ7ad+GvTlWmLR/hLJOWTykN5Nm8NJ7+w==
+
 cz-conventional-changelog@3.2.0:
   version "3.2.0"
   resolved "http://nexus.nuedev.click/repository/npm-group/cz-conventional-changelog/-/cz-conventional-changelog-3.2.0.tgz#6aef1f892d64113343d7e455529089ac9f20e477"
@@ -3087,6 +3134,11 @@ data-urls@^2.0.0:
     abab "^2.0.3"
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
+
+dayjs@^1.9.6:
+  version "1.11.7"
+  resolved "http://nexus.nuedev.click/repository/npm-group/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
+  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
 
 debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0:
   version "4.3.4"
@@ -3733,6 +3785,11 @@ flush-write-stream@^1.0.2:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+fn-name@~3.0.0:
+  version "3.0.0"
+  resolved "http://nexus.nuedev.click/repository/npm-group/fn-name/-/fn-name-3.0.0.tgz#0596707f635929634d791f452309ab41558e3c5c"
+  integrity sha512-eNMNr5exLoavuAMhIUVsOKF79SWd/zG104ef6sxBTSw+cZc6BXdQXDvYcGvp0VbxVVSp1XDUNoz7mg1xMtSznA==
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -5395,6 +5452,11 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash-es@^4.17.11:
+  version "4.17.21"
+  resolved "http://nexus.nuedev.click/repository/npm-group/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "http://nexus.nuedev.click/repository/npm-group/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
@@ -5444,6 +5506,11 @@ log-update@^4.0.0:
     cli-cursor "^3.1.0"
     slice-ansi "^4.0.0"
     wrap-ansi "^6.2.0"
+
+loglevel@^1.7.0:
+  version "1.8.1"
+  resolved "http://nexus.nuedev.click/repository/npm-group/loglevel/-/loglevel-1.8.1.tgz#5c621f83d5b48c54ae93b6156353f555963377b4"
+  integrity sha512-tCRIJM51SHjAayKwC+QAg8hT8vg6z7GSgLJKGvzuPb1Wc+hLzqtuVLxp6/HzSPOozuK+8ErAhy7U/sVzw8Dgfg==
 
 longest@^2.0.1:
   version "2.0.1"
@@ -6259,6 +6326,11 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
+property-expr@^2.0.2:
+  version "2.0.5"
+  resolved "http://nexus.nuedev.click/repository/npm-group/property-expr/-/property-expr-2.0.5.tgz#278bdb15308ae16af3e3b9640024524f4dc02cb4"
+  integrity sha512-IJUkICM5dP5znhCckHSv30Q4b5/JA5enCtkRHYaOVOAocnH/1BQEYTC5NMfT3AVl/iXKdr3aqQbQn9DxyWknwA==
+
 psl@^1.1.33:
   version "1.8.0"
   resolved "http://nexus.nuedev.click/repository/npm-group/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
@@ -6417,6 +6489,11 @@ regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "http://nexus.nuedev.click/repository/npm-group/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
+
+regenerator-runtime@^0.13.11:
+  version "0.13.11"
+  resolved "http://nexus.nuedev.click/repository/npm-group/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
+  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"
@@ -6625,6 +6702,27 @@ rimraf@^3.0.0:
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
+
+ruby-js-interpreter@0.0.8:
+  version "0.0.8"
+  resolved "http://nexus.nuedev.click/repository/npm-group/ruby-js-interpreter/-/ruby-js-interpreter-0.0.8.tgz#ac5340a52b63f3de16ec53d3feb06a26433f4a22"
+  integrity sha512-+IsvoHWnBHcyhFykUorZZErqeT3DqEc8+10Gam7V77iWPDwPt92JDvXfWJr/lR2ifvdyl8tW7tDMqNmUGIDKmg==
+  dependencies:
+    acorn "^8.4.1"
+
+ruby-pricing-calculator@~0.8.6-0:
+  version "0.8.9"
+  resolved "http://nexus.nuedev.click/repository/npm-group/ruby-pricing-calculator/-/ruby-pricing-calculator-0.8.9.tgz#35a4fa4105a7f82eeb3283547a3245f00598a7ed"
+  integrity sha512-6b5vF0/aBIG9XKv35z3UW4MyyiGPrDTT+VZhK7rY5xh40wDbnJyHDQJsGSVNGOOhnHTxa3V0Dh8Zg66HFMVSJw==
+  dependencies:
+    bignumber.js "^9.0.0"
+    currency.js "^2.0.3"
+    dayjs "^1.9.6"
+    lodash "^4.17.20"
+    loglevel "^1.7.0"
+    ruby-js-interpreter "0.0.8"
+    uuid "^8.3.2"
+    yup "^0.29.3"
 
 run-async@^2.2.0, run-async@^2.4.0:
   version "2.4.1"
@@ -7149,6 +7247,11 @@ symbol-tree@^3.2.4:
   resolved "http://nexus.nuedev.click/repository/npm-group/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
+synchronous-promise@^2.0.13:
+  version "2.0.17"
+  resolved "http://nexus.nuedev.click/repository/npm-group/synchronous-promise/-/synchronous-promise-2.0.17.tgz#38901319632f946c982152586f2caf8ddc25c032"
+  integrity sha512-AsS729u2RHUfEra9xJrE39peJcc2stq2+poBXX8bcM08Y6g9j/i/PUzwNQqkaJde7Ntg1TO7bSREbR5sdosQ+g==
+
 terminal-link@^2.0.0:
   version "2.1.1"
   resolved "http://nexus.nuedev.click/repository/npm-group/terminal-link/-/terminal-link-2.1.1.tgz#14a64a27ab3c0df933ea546fba55f2d078edc994"
@@ -7285,6 +7388,11 @@ to-through@^2.0.0:
   integrity sha1-/JKtq6ByZHvAtn1rA2ZKoZUJOvY=
   dependencies:
     through2 "^2.0.3"
+
+toposort@^2.0.2:
+  version "2.0.2"
+  resolved "http://nexus.nuedev.click/repository/npm-group/toposort/-/toposort-2.0.2.tgz#ae21768175d1559d48bef35420b2f4962f09c330"
+  integrity sha512-0a5EOkAUp8D4moMi2W8ZF8jcga7BgZd91O/yabJCFY8az+XSzeGyTKs0Aoo897iV1Nj6guFq8orWDS96z91oGg==
 
 tough-cookie@^4.0.0:
   version "4.0.0"
@@ -7542,6 +7650,11 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "http://nexus.nuedev.click/repository/npm-group/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "http://nexus.nuedev.click/repository/npm-group/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache-lib@^3.0.0:
   version "3.0.1"
@@ -7902,3 +8015,16 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "http://nexus.nuedev.click/repository/npm-group/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+yup@^0.29.3:
+  version "0.29.3"
+  resolved "http://nexus.nuedev.click/repository/npm-group/yup/-/yup-0.29.3.tgz#69a30fd3f1c19f5d9e31b1cf1c2b851ce8045fea"
+  integrity sha512-RNUGiZ/sQ37CkhzKFoedkeMfJM0vNQyaz+wRZJzxdKE7VfDeVKH8bb4rr7XhRLbHJz5hSjoDNwMEIaKhuMZ8gQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    fn-name "~3.0.0"
+    lodash "^4.17.15"
+    lodash-es "^4.17.11"
+    property-expr "^2.0.2"
+    synchronous-promise "^2.0.13"
+    toposort "^2.0.2"

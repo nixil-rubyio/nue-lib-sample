@@ -44,7 +44,8 @@
     "@types/jest": "^29.2.4",
     "@types/semver": "^7.3.1",
     "babel-plugin-async-to-promises": "^1.0.5",
-    "semver": "^7.3.8"
+    "semver": "^7.3.8",
+    "@nue-apps/nue-pricing-clientjs": "2023.1.1"
   },
   "lint-staged": {
     "src/**/*.ts?(x)": [
